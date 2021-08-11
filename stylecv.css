@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 19px 57px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 57px;
+    border-bottom: 19px solid #ff0;
+    width: 80%;
+}
+
+#myPicture{
+    height: 201px;
+    width: 201px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header > aside{
+    width: 70%;
+}
+
+header > aside > p{
+    color: #0f0;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2{
+    color: orange;
+}
+header > aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header > aside > hr{
+    background-color: #ff0;
+    color: #ff0;
+    height: 5px;
+}
+
+.about{
+    color: white;
+    width: 70%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    font-size: 0.8em;
+}
+
+section{
+    margin: 19px;
+}
+
+section > h2{
+    margin: 19px;
+}
+
+ul > li > b{
+    color: orange;
+}
