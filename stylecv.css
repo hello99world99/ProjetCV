@@ -18,9 +18,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 57px;
-    border-bottom: 19px solid #ff0;
-    width: 80%;
+    padding-bottom: 19px;
+    border-bottom: 13px solid #ff0;
+    width: 90%;
 }
 
 #myPicture{
@@ -69,13 +69,22 @@ header > aside > hr{
 }
 
 section{
-    margin: 19px;
+    margin: 13px;
 }
 
 section > h2{
-    margin: 19px;
+    margin: 13px;
 }
 
 ul > li > b{
     color: orange;
+}
+
+.download{
+    padding: 16px 19px;
+    background-color: orange;
+    border-radius: 5%;
+    border: 0px;
+    font-weight: bold;
+    margin-top: 13px;
 }
